@@ -13,6 +13,7 @@ console.log(document.querySelector('.guess').value);
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
+console.log(score);
 let highscore = 0;
 
 const displayMessage = function (message) {
