@@ -17,6 +17,7 @@ console.log(score);
 let highscore = 0;
 
 const displayMessage = function (message) {
+  console.log(message);
   document.querySelector('.message').textContent = message;
 };
 
